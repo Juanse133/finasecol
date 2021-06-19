@@ -1,7 +1,11 @@
+.page{
+    background-color:#f4f4f4
+}
+
 .header {
     display: flex;
     justify-content:space-between;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(196, 194, 194);
     border-bottom: 1px solid hsla(0, 0%, 62.7%, .3);
     height: 5em;
     left: 0;

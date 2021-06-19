@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './images/logo.jpg';
+import logo from './images/logo.png';
 import instagram from './images/instagramLogo.svg';
 import facebook from './images/facebookLogo.png';
 import whatsapp from './images/whatsappLogo.png';
@@ -25,7 +25,7 @@ function App() {
     return () => clearInterval(interval);
   }, [activeSlider]);
   return (
-    <div>
+    <div className="page">
       <header className="header">
         <a href="/" className="alogo">
           <img src={logo} alt="logo" className="logo" />
