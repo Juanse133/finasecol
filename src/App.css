@@ -40,9 +40,26 @@
 .waButton{
     padding-bottom: 16px;
     padding-right: 16px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 10000;
     size: 100px;
+    z-index: 10000;
+}
+
+.slider{
+    position: relative;
+    height: 25em;
+    text-align: center;
+    overflow:hidden;
+}
+
+.sliderImages{
+    width:100%;
+    height:auto;
+}
+
+.content{
+    padding-right: 200px;
+    padding-left: 200px;
 }
